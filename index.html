@@ -5,11 +5,165 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fullstack web dev course</title>
+
+  <style>
+    body {
+      background-color: azure;
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    }
+    h1 {
+      color: #a100ff;
+    }
+    a {
+      color: #8a2be2;
+      text-decoration: none;
+    }
+    .nowrap {
+      white-space: nowrap;
+    }
+    .topic {
+      width: 280px;
+    }
+    .divider {
+      margin-bottom: 3px;
+    }
+
+    .schedule table, .schedule th, .schedule td {
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+    .schedule th, .schedule td {
+      padding: 4px 10px;
+    }
+
+    .serial {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <h1>Fullstack web development course</h1>
 
-  <div style="margin-top: 30px; margin-bottom: 50px;">
+  <h2>Class timings</h2>
+  <ul>
+    <li>Wednesday, 8:00pm - 9:30pm IST</li>
+    <li>Saturday, 8:00pm - 9:30pm IST</li>
+  </ul>
+
+  <!-- <h2>Course site</h2>
+  <a href="https://abraj.github.io/fullstack-523/">https://abraj.github.io/fullstack-523/</a> -->
+
+  <h2>GitHub repository</h2>
+  <a href="https://github.com/abraj/fullstack-523">https://github.com/abraj/fullstack-523</a>
+
+  <h2>Schedule</h2>
+  <div class="schedule" style="overflow-x:auto;">
+    <table>
+      <thead>
+        <tr>
+          <th><span class="nowrap">Class #</span></th>
+          <th style="min-width: 65px;">Date</th>
+          <th style="min-width: 120px;">Topics</th>
+          <th style="min-width: 190px;">Required <sup>*</sup></th>
+          <th style="min-width: 190px;">Recommended</th>
+          <th><span class="nowrap">Source code</span></th>
+          <th>Assignments</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="serial">1</td>
+          <td>May 24, 2023</td>
+          <td>Introduction to the course</td>
+          <td>
+            <a href="https://youtu.be/eptKpu280Vs" target="_blank">Introduction to Full-stack development</a>
+            <div class="divider"></div>
+            <a href="https://youtu.be/20rgj1yzTWg" target="_blank">Website Terminologies</a>
+            <div class="divider"></div>
+            <a href="https://youtu.be/j6Set_wu3Jg" target="_blank">Softwares and Tooling for the Web</a>
+          </td>
+          <td>
+            <a href="https://youtu.be/0AgYFzFODvc" target="_blank">Client and Server for the Web</a>
+            <div class="divider"></div>
+            <a href="https://youtu.be/UTaWxQ3Paic" target="_blank">Basics of the World Wide Web</a>
+          </td>
+          <td>
+            <a href="https://github.com/abraj/fullstack-523/blob/main/01/index.html" target="_blank">
+              <span class="nowrap">Source code</span>
+            </a>
+            <div class="divider"></div>
+            <a href="/01/" target="_blank">Demo</a>
+          </td>
+          <td>
+            <a href="https://github.com/abraj/fullstack-523/blob/main/01/assignment/01.md" target="_blank">
+              <span class="nowrap">Softwares to install</span>
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="serial">2<sup>&dagger;</sup></td>
+          <td>May 27, 2023</td>
+          <td>Introduction to HTML and CSS</td>
+          <td>
+            <a href="https://youtu.be/r2VochmHoQM" target="_blank">Your first HTML page</a>
+            <div class="divider"></div>
+            <a href="https://youtu.be/7C-UY8BAmqQ" target="_blank">HTML Basics 1</a>
+            <div class="divider"></div>
+            <a href="https://youtu.be/SWYQDQGzpjQ" target="_blank">HTML Basics 2</a>
+          </td>
+          <td>
+            <a href="https://youtu.be/D1ia-Z77htk" target="_blank">IP addresses and Domain names</a>
+            <div class="divider"></div>
+            <a href="https://youtu.be/w4BVYFODpdk" target="_blank">Anatomy of a URL</a>
+          </td>
+          <td></td>
+          <td></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div style="margin-left: 5px;">
+    <div style="height: 8px;"></div>
+    <small>
+      <span><sup>&dagger;</sup> <em>Upcoming class</em></span>
+      <br>
+      <span><sup>*</sup> <em>Required to be completed before coming to class</em></span>
+    </small>
+  </div>
+
+  <h2>Recorded videos</h2>
+  <a href="https://fullstack.chanakyalabs.com/schedule?key=abcdefg121" target="_blank">https://fullstack.chanakyalabs.com/schedule?key=abcdefg121</a>
+
+  <h2>Contact</h2>
+  <div style="overflow-x: hidden;">
+    <table>
+      <tr>
+        <td><strong>Email</strong>:</td>
+        <td>
+          <a href="mailto:abhi@raj.me" target="_blank">abhi@raj.me</a>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>LinkedIn</strong>:</td>
+        <td>
+          <a href="https://www.linkedin.com/in/abhishekme/" target="_blank">https://linkedin.com/in/abhishekme</a>
+        </td>
+      </tr>
+      <tr>
+        <td><strong>GitHub</strong>:</td>
+        <td>
+          <a href="https://github.com/abraj" target="_blank">https://github.com/abraj</a>
+        </td>
+      </tr>
+    </table>  
+  </div>
+
+  <div style="margin-top: 50px; margin-bottom: 50px;">
+    <em style="color: gray;">Course ID: 523</em>
+    <div style="height: 16px;"></div>
     <span>
       Last updated: <em>May 25, 2023</em>
     </span>
