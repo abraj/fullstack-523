@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: azure;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+ol, ul {
+  padding-left: 25px;
+}
+
+div {
+  font-weight: bold;
+}
+
+code {
+  background-color: gainsboro;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+#div1 {
+  color: blue;
+}
+
+.oldprice {
+  color: red;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.mydiv {
+  color: red;
+  height: 80px;
+  width: 100px;
+  border: 1px solid blue;
+  display: inline-block;
+}
+
+.div3 {
+  color: green;
+}

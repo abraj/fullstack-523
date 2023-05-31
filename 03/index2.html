@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .header {
+      height: 60px;
+      text-align: center;
+    }
+
+    .sidebar {
+      width: 100px;
+      color: blue;
+      padding: 10px;
+    }
+
+    .body {
+      color: green;
+      padding: 15px;
+    }
+
+    table, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      vertical-align: top;
+    }
+
+    table {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tbody>
+      <tr>
+        <td colspan="2" class="header">
+          <h1>Header</h1>
+        </td>
+      </tr>
+      <tr>
+        <td class="sidebar">
+          <div>Sidebar 1</div>
+        </td>
+        <td class="body" rowspan="2">
+          <div style="background-color: pink; padding: 10px; width: 250px; padding-left: 30px; border: 2px solid blue; border-radius: 10px; ">
+            This is my DIV!
+          </div>
+        </td>  
+      </tr>
+      <tr>
+        <td class="sidebar">
+          <div>Sidebar 2</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
