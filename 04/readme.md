@@ -9,7 +9,7 @@
 * HTML basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 * CSS basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
 
-## Syllabus for Class 3
+## Syllabus for Class 4
 * CSS concepts
   - css color codes
   - multiple classes in `class` attribute
