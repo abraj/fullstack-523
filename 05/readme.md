@@ -12,3 +12,4 @@
 ## Syllabus for Class 5
 
 ## Assignment
+Assignment 5: [Log Me In](./assign/05.md)
