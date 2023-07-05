@@ -11,3 +11,4 @@
 ## Syllabus for Class 12
 
 ## Assignment
+Assignment 9: [Handling Arrays](./assign/09.md)

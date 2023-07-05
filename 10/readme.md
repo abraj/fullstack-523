@@ -11,3 +11,4 @@
 ## Syllabus for Class 10
 
 ## Assignment
+Assignment 7: [Print Diamond](./assign/07.md)

@@ -11,3 +11,4 @@
 ## Syllabus for Class 11
 
 ## Assignment
+Assignment 8: [Fibonacci numbers](./assign/08.md)
