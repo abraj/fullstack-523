@@ -6,6 +6,9 @@
 * JavaScript: Logical operators: https://youtu.be/H_uboKgShoc
 
 ## Recommended Resources (Optional)
+* Math.round(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+* Math.floor(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+* Math.ceil(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil
 
 ## Syllabus for Class 7
 
