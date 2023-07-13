@@ -80,6 +80,7 @@ console.log(frac);
 /*
 // Problem 8
 // Round a number n to k decimals
+// NOTE: Don't use toFixed(), you are only allowed to use round(), floor(), ceil(), etc.
 
 const n = 5.2347963;
 const k = 3;
@@ -121,6 +122,8 @@ console.log(c);
 /*
 // Problem 11
 // Fill in the blanks such that executing the following code does not give any error, and prints the string `world`.
+// Hint: Scoping in JavaScript
+// Ref: https://medium.com/geekculture/scope-in-javascript-559b8ce416c1
 
 const x = 'hello';
 ... // TODO
