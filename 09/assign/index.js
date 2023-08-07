@@ -71,7 +71,7 @@ const func2 = () => {};
 
 function func3() {}
 
-countFunctions(['function', 5, func1, func3, 'foo', func2]);
+console.log(countFunctions(['function', 5, func1, func3, 'foo', func2]));
 //> 3
 
 */
@@ -305,7 +305,7 @@ console.log(x, y);
 If temperature is less than 10 then it's `cold`.
 Cold tea and coffee are called `Ice Tea` and `Cold Coffee` respectively.
 
-printBeverageName(name, temperature) {
+function printBeverageName(name, temperature) {
   // ....
 }
 
